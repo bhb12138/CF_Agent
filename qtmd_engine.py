@@ -67,11 +67,15 @@ class QTMDConfig:
     wM: float = 1.0
     wD: float = 1.0
 
-LIGHT_RULE = "Answer [Q] directly first, then provide 1-2 pieces of evidence from [D]. Respond to [M] if necessary. A maximum of {N} sentences."
+LIGHT_RULE = (
+    "Answer [Q] directly first. Use [D] only as internal support and do not create headings such as "
+    "'Evidence' or 'References'. Respond to [M] if necessary. A maximum of {N} sentences."
+)
 STRUCT_RULE = (
     "First, extract four categories of key points in order (≤ 3 items per category):"
     "1) Arguments supporting the goal 2) Arguments threatening the goal 3) Points of conflict to be resolved 4) Potential opportunities for cooperation;"
-    "Then generate a response of no more than {N} sentences based on these points, prioritizing references to [D]. Must be in English，only output the response."
+    "Then generate a response of no more than {N} sentences based on these points, using [D] only as internal support."
+    " Must be in English, output plain paragraphs only, and never output 'Evidence', 'References', or citation lists."
 )
 
 def build_qtmd_prompt(Q: str, T: str = "", M: str = "", D: str = "", cfg: QTMDConfig = QTMDConfig()) -> str:
@@ -109,7 +113,10 @@ def build_qtmd_prompt(Q: str, T: str = "", M: str = "", D: str = "", cfg: QTMDCo
     else:
         parts.append(f"[R]\n{weight_line}")
 
-    parts.append(f"# Please answer directly (≤{cfg.max_sentences} sentences):")
+    parts.append(
+        f"# Please answer directly (≤{cfg.max_sentences} sentences), "
+        "plain paragraph only, no XML tags, no bullet list, no references section:"
+    )
     return dedent("\n\n".join(parts)).strip()
 
 def enhanced_build_qtmd_prompt(Q: str, T: str = "", M: str = "", D: str = "", cfg: QTMDConfig = QTMDConfig()) -> str:
@@ -172,7 +179,10 @@ def enhanced_build_qtmd_prompt(Q: str, T: str = "", M: str = "", D: str = "", cf
             rule_text = rule_tpl
         parts.append(f"[R]\n{rule_text}")
 
-    parts.append(f"# Please answer directly (≤{cfg.max_sentences} sentences):")
+    parts.append(
+        f"# Please answer directly (≤{cfg.max_sentences} sentences), "
+        "plain paragraph only, no XML tags, no bullet list, no references section:"
+    )
     parts.append(f"[Q]\n{Q.strip()}")
 
     return dedent("\n\n".join(parts)).strip()
