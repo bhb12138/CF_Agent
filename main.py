@@ -8,10 +8,12 @@ def parse_args():
 
     p.add_argument("--use_R", type=int, default=1)
     p.add_argument("--rule_mode", type=str, default="light")
-    p.add_argument("--adaptive", type=int, default=1)
+    p.add_argument("--adaptive", type=int, default=0)
     p.add_argument("--log_dir", type=str, default="logs")
     p.add_argument("--rounds", type=int, default=5)
     p.add_argument("--alpha", type=float, default=0.2)
+    p.add_argument("--use_game_theory", type=int, default=1)
+    p.add_argument("--scenario", type=str, default="first_visit")
     return p.parse_args()
 
 
@@ -25,11 +27,13 @@ if __name__ == "__main__":
         adaptive_weight=bool(args.adaptive),
         rounds=args.rounds,
         alpha=args.alpha,
+        use_game_theory=bool(args.use_game_theory),
+        scenario_name=args.scenario,
 
     ))
 
-    os.makedirs(args.log_dir, exist_ok=True)
-    metrics_path = os.path.join(args.log_dir, "metrics.csv")
-    dialogues_path = os.path.join(args.log_dir, "dialogues.jsonl")
-    weights_path = os.path.join(args.log_dir, "weights.csv")
+    # os.makedirs(args.log_dir, exist_ok=True)
+    # metrics_path = os.path.join(args.log_dir, "metrics.csv")
+    # dialogues_path = os.path.join(args.log_dir, "dialogues.jsonl")
+    # weights_path = os.path.join(args.log_dir, "weights.csv")
 

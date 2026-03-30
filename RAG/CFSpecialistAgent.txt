@@ -1,4 +1,85 @@
 Cystic fibrosis specialist perspective:
-- Prioritize guideline-based CF management, including airway clearance, infection surveillance, and nutrition.
-- Escalate care promptly for red flags such as worsening breathlessness, hemoptysis, persistent fever, or rapid decline in lung function.
-- Coordinate with GP and patient through shared care plans, clear action thresholds, and regular multidisciplinary review.
+
+=== DIAGNOSIS & GENOTYPE ===
+- CF is caused by mutations in the CFTR gene; over 2,000 variants identified, classified into classes I-VI by functional impact.
+- Most common mutation: F508del (present in ~85% of CF patients); homozygous F508del is eligible for Trikafta (elexacaftor/tezacaftor/ivacaftor).
+- Newborn screening via immunoreactive trypsinogen (IRT) followed by sweat chloride test (≥60 mmol/L diagnostic) and CFTR genotyping.
+- Sweat chloride 30-59 mmol/L is intermediate; repeat testing and extended genotyping required.
+- Diagnosis should be confirmed at a CF Foundation-accredited care centre.
+
+=== CFTR MODULATOR THERAPY ===
+- Trikafta (ETI): approved for patients ≥2 years with at least one F508del allele; dramatically improves FEV1, reduces exacerbations, improves BMI and quality of life.
+- Ivacaftor (Kalydeco): for patients with gating mutations (e.g. G551D); highly effective at restoring CFTR function.
+- Lumacaftor/ivacaftor (Orkambi): older option for homozygous F508del; less effective than Trikafta, more side effects.
+- Before initiating modulators: check liver function tests, ophthalmology review (cataracts risk in children), drug interactions (CYP3A4 inducers/inhibitors).
+- Monitor FEV1, weight, and sweat chloride at 1 month, 3 months, and 6 months post-initiation.
+- Not all genotypes respond to current modulators; some patients remain modulator-ineligible and require conventional management.
+
+=== PULMONARY MANAGEMENT ===
+- Airway clearance therapy (ACT): twice daily minimum; techniques include ACBT, oscillating PEP devices (Aerobika, Acapella), high-frequency chest wall oscillation (Vest).
+- Inhaled medications order: bronchodilator → hypertonic saline (7%) → dornase alfa (Pulmozyme) → inhaled antibiotics → ACT.
+- Dornase alfa: reduces mucus viscosity; indicated for FEV1 >40% predicted; administer 30 min before ACT.
+- Hypertonic saline (7%): improves mucociliary clearance; pre-treat with bronchodilator to prevent bronchospasm.
+- Inhaled tobramycin (TOBI): alternating monthly cycles for chronic Pseudomonas aeruginosa colonisation.
+- Inhaled aztreonam (Cayston): alternative for Pseudomonas; 28 days on, 28 days off.
+- Inhaled colistin: used for Pseudomonas in some regions; less evidence than tobramycin.
+
+=== INFECTION SURVEILLANCE & MICROBIOLOGY ===
+- Routine sputum culture or cough swab every 3 months.
+- Key pathogens: Staphylococcus aureus (early), Pseudomonas aeruginosa (chronic coloniser, worse prognosis), Burkholderia cepacia complex (high risk, cross-infection concern), MRSA, Achromobacter, Stenotrophomonas.
+- First isolation of Pseudomonas: eradication protocol with inhaled tobramycin ± oral ciprofloxacin for 3 months.
+- Chronic Pseudomonas colonisation: defined as ≥3 positive cultures over 6 months; manage with suppressive inhaled antibiotics.
+- Burkholderia cepacia complex: segregation required; associated with rapid decline and poor transplant outcomes.
+- Annual screening: MRSA surveillance swabs, non-tuberculous mycobacteria (NTM) sputum culture.
+- Influenza vaccination annually; pneumococcal and COVID-19 vaccines per national guidelines.
+
+=== PULMONARY EXACERBATION MANAGEMENT ===
+- Definition: increase in respiratory symptoms (increased cough, sputum, dyspnoea), decline in FEV1 ≥10%, new infiltrate on CXR, or systemic signs (fever, weight loss).
+- Mild exacerbation: oral antibiotics based on recent sputum culture, intensify ACT, increase bronchodilators; review in 2 weeks.
+- Moderate-severe exacerbation: IV antibiotics (usually 14 days); double-cover Pseudomonas with β-lactam + aminoglycoside.
+- Aminoglycoside dosing: once-daily tobramycin preferred; monitor levels and renal function.
+- IV access: PICC line or port-a-cath for patients requiring frequent IV courses.
+- Failure to return to baseline FEV1 after exacerbation is a marker of disease progression.
+- Hospitalisation threshold: FEV1 <30% predicted, inability to tolerate oral intake, oxygen requirement, failure of outpatient treatment.
+
+=== LUNG FUNCTION & RISK STRATIFICATION ===
+- FEV1 % predicted: mild ≥70%, moderate 40-69%, severe <40%.
+- FEV1 decline >2% per year is significant; triggers escalation of therapy.
+- Annual lung function surveillance: spirometry every 3 months in moderate-severe disease.
+- 6-minute walk test: useful for functional capacity assessment in advanced disease.
+- CT chest: not routine; indicated for haemoptysis, unexplained decline, suspected NTM or bronchiectasis complications.
+- Lung transplant referral: FEV1 <30% predicted, rapidly declining FEV1, increasing exacerbation frequency, hypoxia at rest, hypercapnia.
+- Bilateral lung transplant: standard procedure; 5-year survival ~55%.
+
+=== NUTRITION ===
+- Pancreatic insufficiency present in ~85% of CF patients; requires pancreatic enzyme replacement therapy (PERT).
+- PERT dosing: start at 500 units lipase/kg/meal; adjust based on symptoms and growth; max 2500 units lipase/kg/meal or 10,000 units lipase/kg/day.
+- High-calorie, high-fat diet recommended: CF patients require 110-200% of normal caloric intake.
+- Fat-soluble vitamins (A, D, E, K): routine supplementation required due to malabsorption.
+- Vitamin D deficiency is common; target 25-OH vitamin D >30 ng/mL.
+- CF-related diabetes (CFRD): annual oral glucose tolerance test (OGTT) from age 10; managed with insulin, not oral agents.
+- Nutritional targets: BMI ≥22 for women, ≥23 for men; weight-for-length ≥50th percentile in children.
+- Enteral feeding (nasogastric or gastrostomy): consider if BMI <18.5 or inadequate weight gain despite oral supplementation.
+
+=== MULTIDISCIPLINARY TEAM (MDT) ===
+- Core MDT: CF specialist physician, CF nurse specialist, physiotherapist, dietitian, psychologist, social worker, pharmacist.
+- Extended MDT: hepatologist (CF liver disease), endocrinologist (CFRD), ENT (nasal polyps, sinusitis), fertility specialist.
+- Annual review: comprehensive assessment including lung function, microbiology, nutrition, psychosocial status, CFRD screen, bone density (DEXA from age 18).
+- Minimum clinic frequency: every 3 months for stable patients; monthly for unstable or post-exacerbation.
+- Transition from paediatric to adult CF services: planned process from age 16-18, involving gradual handover and patient education.
+
+=== EXTRAPULMONARY COMPLICATIONS ===
+- CF liver disease: focal biliary cirrhosis in ~5-10%; ursodeoxycholic acid used but evidence limited; monitor with liver ultrasound and LFTs annually.
+- Osteoporosis: prevalent due to malnutrition, corticosteroid use, vitamin D deficiency; DEXA scan every 1-5 years.
+- CF arthropathy: episodic arthritis, separate from lung exacerbations; NSAIDs first-line.
+- Nasal polyps and chronic sinusitis: very common; managed with nasal saline, steroids, and ENT referral.
+- Male infertility: congenital bilateral absence of vas deferens (CBAVD) in >95% of males; sperm retrieval possible.
+- Female fertility: reduced but possible; pregnancy requires close MDT monitoring and modulator review.
+
+=== PSYCHOSOCIAL & PALLIATIVE CARE ===
+- Depression and anxiety prevalence 2-3x higher in CF patients than general population.
+- Annual screening with validated tools (PHQ-9, GAD-7) recommended.
+- Advance care planning: discuss early in advanced disease; include resuscitation preferences, transplant suitability, palliative care goals.
+- Palliative care referral: not only end-of-life; symptom management, psychological support throughout disease course.
+- Peer support and CF-specific patient organisations (e.g. Cystic Fibrosis Trust) provide valuable resources.
+- Segregation policy: CF patients must not meet in person due to cross-infection risk; online peer support recommended.

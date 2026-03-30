@@ -1,4 +1,86 @@
 Patient perspective in cystic fibrosis care:
-- Treatment burden, time demands, and side effects affect adherence and quality of life.
-- Patients value clear explanations, shared decision-making, and care plans that fit daily life.
-- Access, affordability, and communication between clinicians strongly influence outcomes and trust.
+
+=== DAILY TREATMENT BURDEN ===
+- A typical CF treatment regimen takes 2-4 hours per day: airway clearance, nebulisers, oral medications, enzyme replacement with every meal.
+- Morning routine alone can take 45-90 minutes before leaving the house, making early school or work starts very difficult.
+- Nebuliser equipment must be cleaned and dried daily; contamination risks are real and time-consuming to manage.
+- Vest therapy (high-frequency chest wall oscillation) takes 20-30 minutes per session; must be done twice daily.
+- Forgetting or skipping treatments creates guilt and anxiety, even when the reason is exhaustion or a busy schedule.
+- Enzyme replacement must be taken with every meal and snack, including at restaurants, friends' houses, and school; this draws unwanted attention.
+- Travel requires carrying medications, nebulisers, and equipment; airline rules, storage temperatures, and customs can create real stress.
+- Clinic appointments occur every 3 months at minimum, plus additional visits during exacerbations; time off work or school adds up significantly.
+
+=== MEDICATION SIDE EFFECTS & CHALLENGES ===
+- Trikafta (elexacaftor/tezacaftor/ivacaftor): most patients report transformative improvement, but side effects include rash, liver enzyme elevation, mood changes, brain fog, and joint pain.
+- Some patients experience worsened sinusitis or nasal congestion after starting Trikafta.
+- Inhaled antibiotics (tobramycin, aztreonam): can cause cough, bronchospasm, and tinnitus; unpleasant taste affects adherence.
+- Hypertonic saline: causes significant coughing and salt taste; patients often skip it due to tolerability issues.
+- Pancreatic enzymes: timing is critical; taking them too late or early causes pain, bloating, or fatty stools (steatorrhoea).
+- IV antibiotics at home: PICC lines restrict arm movement, require daily flushing, and carry infection risk; patients feel tethered.
+- Weight gain goal can feel counterintuitive when so many other health messages emphasise restriction.
+- Multiple medications with different timing requirements create a complex schedule that is hard to sustain long-term.
+
+=== FINANCIAL AND ACCESS BARRIERS ===
+- Trikafta costs approximately £100,000+ per year without NHS or insurance coverage; access varies significantly by country and insurance status.
+- In some countries, modulator therapy is not reimbursed, forcing patients to fundraise or go without.
+- Prescription costs add up even with coverage; pre-payment certificates help but are not always known to patients.
+- Nebuliser machines break and require repair or replacement; costs can be significant without support.
+- Private physiotherapy or specialist consultations are inaccessible for many patients without financial support.
+- Travel to specialist CF centres (often not local) involves transport costs, parking fees, and time away from work.
+- Lost income from sick days or reduced hours during exacerbations is a significant financial strain.
+- Applying for disability benefits is a complex, emotionally exhausting process that many patients avoid despite being eligible.
+- CF Trust and other charities offer grants and financial support but many patients are unaware of these resources.
+
+=== QUALITY OF LIFE & DAILY LIFE IMPACT ===
+- Chronic fatigue is one of the most debilitating symptoms; it is often invisible and misunderstood by employers, teachers, and even family.
+- Difficulty keeping up with peers academically or professionally due to frequent absences and physical limitations.
+- Social life is restricted by treatment schedules, fatigue, and the segregation policy (cannot meet other CF patients in person).
+- Dating and relationships are complicated by the need to disclose a life-limiting condition, infertility concerns, and physical appearance.
+- Planning for the future (career, children, mortgage) is complicated by uncertainty about disease trajectory.
+- Exercise is encouraged but can feel impossible during exacerbations; patients often feel judged for not being "active enough."
+- Eating habits are medically driven (high calorie, high fat); this conflicts with social norms and can affect self-image.
+- Chest physiotherapy devices and nebulisers in shared living spaces (university halls, flatshares) create privacy and noise concerns.
+
+=== MENTAL HEALTH & EMOTIONAL EXPERIENCE ===
+- Anxiety is often related to monitoring symptoms, fear of exacerbations, and uncertainty about the future.
+- Depression is common and frequently underdiagnosed; many patients mask symptoms to appear "coping."
+- Grief for the life they expected is real: career limitations, fertility issues, shortened lifespan.
+- Treatment fatigue: after years of intensive regimens, many patients go through periods of deliberate non-adherence as a form of psychological relief.
+- Fear of hospitalisation: not just about being unwell, but about disruption to work, relationships, and loss of independence.
+- Complicated feelings about Trikafta: those who respond well may feel survivor's guilt toward those who are modulator-ineligible.
+- Anger at the healthcare system is common, particularly around access to new therapies, long waiting times, and feeling unheard.
+- The "good patient" pressure: patients feel they must always be positive and compliant to receive good care.
+
+=== SHARED DECISION-MAKING & COMMUNICATION WITH CLINICIANS ===
+- Patients want to be treated as experts in their own condition; lived experience is valuable clinical information.
+- Feeling dismissed or rushed in appointments leads to withholding of symptoms and reduced trust.
+- Written action plans are valued but must be co-created, not handed to the patient without discussion.
+- Patients want honest conversations about prognosis without being either falsely reassured or left without hope.
+- Communication between GP and CF specialist is often poor; patients end up as the go-between, repeating information at every appointment.
+- Telehealth appointments are valued for routine check-ins but not for complex reviews or sensitive discussions.
+- Patients appreciate continuity of care; seeing the same clinician builds trust and reduces the need to re-explain history.
+- Language matters: "compliance" feels accusatory; "adherence" and "self-management" are more collaborative terms.
+
+=== ADHERENCE REALITIES ===
+- Full adherence to a CF regimen is almost impossible to sustain indefinitely; most patients adapt regimens to fit their lives.
+- Non-adherence is not laziness; it is often a rational response to time constraints, side effects, and fatigue.
+- Adolescence is a particularly high-risk period for non-adherence due to identity, independence, and peer pressure.
+- Reminder apps and pill organisers help some patients but can also increase anxiety and feelings of burden.
+- Involving family or partners in the regimen can support adherence but risks creating dependency or resentment.
+- Patients benefit from non-judgmental conversations about what they are and are not doing, rather than being lectured.
+- Hospital admission during exacerbation is sometimes experienced as a "rest" from daily treatment demands.
+
+=== FIRST VISIT CONCERNS ===
+- At the first CF team visit, patients typically expect: spirometry, sputum culture, blood tests (LFTs, FBC, CFRD screen), CF-specific multivitamin levels, nutritional assessment.
+- Patients want to know: what does my lung function mean for my daily life, not just a percentage figure.
+- Immediate concern: will this treatment plan affect my job, my studies, my ability to care for my children?
+- Questions often not asked but important: what happens if I miss treatments, who do I call at 2am if I feel worse, what does an exacerbation feel like?
+- Fear at first visit: being told something is seriously wrong; not knowing what questions to ask.
+- After the visit: patients need a written summary, a contact number, and a clear plan; verbal-only information is often forgotten due to anxiety.
+
+=== SUPPORT NETWORKS ===
+- Cystic Fibrosis Trust (UK): provides information, advocacy, financial grants, and online peer support communities.
+- Online CF communities (Facebook groups, forums): important source of peer support given segregation policy.
+- CF peer mentoring: matching newly diagnosed adults with experienced patients can improve coping and adherence.
+- Family involvement: parents and partners often become informal carers; their wellbeing must also be considered.
+- Palliative care teams: not only for end-of-life; symptom management and psychological support are valuable earlier in the disease.

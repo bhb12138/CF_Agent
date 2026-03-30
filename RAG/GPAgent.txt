@@ -1,4 +1,84 @@
-General practitioner perspective:
-- Provide first-contact assessment, continuity, vaccination review, and monitoring of comorbidities.
-- Use safety-netting and timely referral/escalation to CF specialist teams when symptoms deteriorate.
-- Support adherence, psychosocial concerns, and practical barriers in collaboration with specialist services.
+General practitioner perspective in cystic fibrosis care:
+
+=== ROLE OF THE GP IN CF CARE ===
+- GP provides first-contact care, continuity, and holistic management alongside the CF specialist team.
+- GP is often the first point of contact for acute deterioration; must recognise when to escalate urgently.
+- Shared care model: GP manages routine monitoring, vaccinations, comorbidities, prescriptions; CF specialist manages disease-specific interventions.
+- Clear written shared care agreement between GP and CF centre is essential to define responsibilities.
+- GP must be familiar with the patient's current modulator therapy, inhaled regimen, and recent microbiology results.
+
+=== FIRST CONTACT ASSESSMENT ===
+- At first visit: establish baseline FEV1, BMI, current medication list, vaccination status, and recent CF centre review date.
+- Review all current medications for drug interactions, particularly with Trikafta (CYP3A4 interactions with rifampicin, azole antifungals, carbamazepine).
+- Confirm pancreatic enzyme replacement therapy (PERT) dose and adherence.
+- Ask specifically about symptoms of CF-related diabetes (CFRD): polyuria, polydipsia, unexplained weight loss.
+- Assess mental health: CF patients have significantly elevated rates of depression and anxiety; use PHQ-9 and GAD-7.
+- Document and review advance care plan if available.
+
+=== SAFETY-NETTING & RED FLAGS ===
+- Advise patient to contact CF team or GP urgently if: FEV1 drops ≥10% from personal best, new or increased haemoptysis, fever >38.5°C for >48 hours, significant weight loss, increasing breathlessness at rest.
+- Pneumothorax: sudden onset chest pain and dyspnoea in CF; urgent CXR and CF team referral.
+- Haemoptysis: small amounts common; large haemoptysis (>240ml/24h) is a medical emergency requiring hospital admission.
+- Distal intestinal obstruction syndrome (DIOS): severe right iliac fossa pain, constipation, palpable mass; urgent management needed.
+- Signs of right heart failure (cor pulmonale): peripheral oedema, raised JVP, worsening dyspnoea in advanced CF.
+
+=== REFERRAL THRESHOLDS ===
+- Refer to CF centre for: any acute exacerbation not responding to oral antibiotics within 48-72 hours, new Pseudomonas isolation, FEV1 decline ≥10% from baseline, new haemoptysis, suspected CFRD.
+- Urgent same-day referral: large haemoptysis, pneumothorax, severe exacerbation with systemic compromise.
+- Routine referral: new comorbidities (osteoporosis, liver disease, arthropathy), fertility concerns, mental health escalation.
+- Always contact the CF centre before initiating new antibiotics to avoid masking microbiological results.
+- Do not prescribe fluoroquinolones (ciprofloxacin) without CF team consultation; resistance risk in Pseudomonas management.
+
+=== MEDICATION MANAGEMENT ===
+- PERT: commonly prescribed by GP; dose adjustments require dietitian and CF team input.
+- Vitamin supplementation (A, D, E, K): routine CF-specific multivitamins (e.g. ADEK vitamins); check levels annually.
+- Azithromycin: 3x weekly low-dose for anti-inflammatory effect in chronic Pseudomonas; monitor for QTc prolongation and macrolide resistance.
+- Inhaled medications: GP prescribes but CF team initiates; ensure correct inhaler technique and nebuliser maintenance.
+- Trikafta prescribing: usually initiated by CF specialist; GP may continue prescription under shared care; monitor LFTs at 3 and 12 months.
+- Avoid NSAIDs in patients with poor renal function or on aminoglycosides; use with caution.
+- Corticosteroids: short courses for bronchospasm but avoid long-term systemic steroids due to CFRD risk.
+
+=== COMORBIDITY MANAGEMENT ===
+- CF-related diabetes (CFRD): manage with insulin (not metformin or sulfonylureas); liaise with CF diabetologist; HbA1c may underestimate glycaemic control in CF.
+- Osteoporosis: calcium and vitamin D supplementation; bisphosphonate therapy if T-score ≤-2.5; refer to CF team for DEXA review.
+- CF liver disease: avoid hepatotoxic medications; monitor LFTs; refer hepatologist if abnormal ultrasound or rising LFTs.
+- Nasal polyps and chronic sinusitis: very common; prescribe nasal saline irrigation, topical steroids; ENT referral if severe.
+- Gastro-oesophageal reflux: common in CF; PPIs used but can affect microbiome; minimise if possible.
+- Anxiety and depression: first-line CBT and SSRI; avoid TCAs due to anticholinergic effects reducing mucus clearance.
+
+=== VACCINATION & INFECTION PREVENTION ===
+- Annual influenza vaccine: strongly recommended; live attenuated intranasal vaccine avoided in immunocompromised CF patients.
+- Pneumococcal vaccine (PCV13 and PPV23): according to national schedule.
+- COVID-19 vaccine: priority group in most countries.
+- Avoid live vaccines if patient on immunosuppression post-transplant.
+- Household contacts should also be vaccinated for influenza where possible.
+- Hand hygiene advice essential; CF patients must not socialise with other CF patients (cross-infection risk).
+
+=== CONTINUITY & FOLLOW-UP ===
+- GP review: at minimum every 6 months for stable patients; more frequently post-exacerbation or medication change.
+- Post-exacerbation review within 2 weeks: assess recovery, weight, FEV1 if available, medication adherence.
+- Coordinate timing of GP reviews to complement (not duplicate) CF centre appointments.
+- Maintain up-to-date medication record shared with CF centre.
+- Ensure patient has written action plan for acute deterioration: when to call GP, when to call CF team, when to go to A&E.
+
+=== PRACTICAL BARRIERS IN PRIMARY CARE ===
+- CF patients often attend multiple clinics; GP must avoid appointment fatigue by coordinating timing with CF centre.
+- Prescription management: CF patients may be on 10-15 medications; regular medication reviews prevent errors.
+- Transport and access: frequent clinic visits are burdensome; support patient with transport plans or telehealth where appropriate.
+- Work and school letters: GP often asked to provide sick notes, school accommodation letters, or employer fitness-to-work assessments.
+- Financial support: signpost to disability benefits, prescription prepayment certificates, and CF Trust financial assistance.
+- Carer support: if patient has significant disability, assess carer burden and refer to social services if needed.
+
+=== MENTAL HEALTH & PSYCHOSOCIAL SUPPORT ===
+- Mental health conditions are significantly underdiagnosed in CF due to normalisation of symptoms.
+- GP plays a key role in routine screening and early intervention.
+- Watch for signs of burnout from treatment burden, especially in adolescents and young adults.
+- Social isolation is common due to segregation policy; refer to online peer support and CF psychologist.
+- Discuss end-of-life concerns sensitively; many CF patients have thought about this but may not raise it without prompting.
+- Fertility concerns: raised frequently; refer appropriately to fertility services and CF team.
+
+=== COMMUNICATION WITH CF CENTRE ===
+- Send discharge summaries, new diagnoses, and medication changes to CF centre promptly.
+- Receive and act on CF centre letters; confirm shared care responsibilities at each patient review.
+- Use secure messaging or agreed communication channels; avoid informal advice without documentation.
+- Escalate if patient is not attending CF centre appointments: non-attendance is a red flag for deteriorating mental health or social circumstances.

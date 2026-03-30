@@ -67,11 +67,15 @@ class QTMDConfig:
     wM: float = 1.0
     wD: float = 1.0
 
-LIGHT_RULE = "Answer [Q] directly first, then provide 1-2 pieces of evidence from [D]. Respond to [M] if necessary. A maximum of {N} sentences."
+LIGHT_RULE = (
+    "Answer [Q] directly first. Use [D] only as internal support and do not create headings such as "
+    "'Evidence' or 'References'. Respond to [M] if necessary. A maximum of {N} sentences."
+)
 STRUCT_RULE = (
     "First, extract four categories of key points in order (≤ 3 items per category):"
     "1) Arguments supporting the goal 2) Arguments threatening the goal 3) Points of conflict to be resolved 4) Potential opportunities for cooperation;"
-    "Then generate a response of no more than {N} sentences based on these points, prioritizing references to [D]. Must be in English，only output the response."
+     "Then generate a response of no more than {N} sentences based on these points, using [D] only as internal support."
+    " Must be in English, output plain paragraphs only, and never output 'Evidence', 'References', or citation lists."
 )
 
 def build_qtmd_prompt(Q: str, T: str = "", M: str = "", D: str = "", cfg: QTMDConfig = QTMDConfig()) -> str:
@@ -109,70 +113,8 @@ def build_qtmd_prompt(Q: str, T: str = "", M: str = "", D: str = "", cfg: QTMDCo
     else:
         parts.append(f"[R]\n{weight_line}")
 
-    parts.append(f"# Please answer directly (≤{cfg.max_sentences} sentences):")
-    return dedent("\n\n".join(parts)).strip()
-
-def enhanced_build_qtmd_prompt(Q: str, T: str = "", M: str = "", D: str = "", cfg: QTMDConfig = QTMDConfig()) -> str:
-    tier_T = weight_to_tier(getattr(cfg, "wT", 1.0))
-    tier_M = weight_to_tier(getattr(cfg, "wM", 1.0))
-    tier_D = weight_to_tier(getattr(cfg, "wD", 1.0))
-
-    # --- 2) 档位片段（把 persona 注入到 T 档位片段）---
-    t_block = SNIPPETS["T"][tier_T].format(persona=T.strip()[:120] if T else "given persona")
-    m_block = SNIPPETS["M"][tier_M]
-    d_block = SNIPPETS["D"][tier_D]
-
-    # --- 3) 必做步骤汇总 ---
-    steps = []
-    if "MANDATORY" in t_block:
-        steps.append("- State your role/stance explicitly.")
-    if "MANDATORY" in m_block:
-        steps.append("- Start with a brief summary of recent turns and address unresolved points.")
-    if "MANDATORY" in d_block:
-        steps.append("- Provide at least 2 evidence items from the retrieved snippets before concluding.")
-    mandatory_block = ""
-    if steps:
-        mandatory_block = "Follow these mandatory steps:\n" + "\n".join(steps)
-
-    # --- 4) 系统头 ---
-    system_head = (
-        "You are a helpful, debate-oriented agent in a multi-agent discussion.\n"
-        "Be concise, factual, and avoid repetition."
+    parts.append(
+        f"# Please answer directly (≤{cfg.max_sentences} sentences), "
+        "plain paragraph only, no XML tags, no bullet list, no references section:"
     )
-
-    # --- 5) 权重说明（可选，调试用）---
-    weight_line = (
-        f"Weight tiers: T={tier_T} (wT={cfg.wT}), "
-        f"M={tier_M} (wM={cfg.wM}), "
-        f"D={tier_D} (wD={cfg.wD})."
-    )
-
-    # --- 6) 拼装 parts ---
-    parts = [system_head, weight_line]
-
-    if mandatory_block:
-        parts.append(mandatory_block)
-
-    parts.append(t_block)
-    parts.append(m_block)
-    parts.append(d_block)
-
-    if cfg.use_T and T:
-        parts.append(f"[T]\n{T.strip()}")
-    if cfg.use_M and M:
-        parts.append(f"[M]\n{M.strip()}")
-    if cfg.use_D and D:
-        parts.append(f"[D]\n{D.strip()}")
-
-    if cfg.use_R:
-        rule_tpl = (STRUCT_RULE if cfg.rule_mode == "struct" else LIGHT_RULE)
-        try:
-            rule_text = rule_tpl.format(N=cfg.max_sentences)
-        except Exception:
-            rule_text = rule_tpl
-        parts.append(f"[R]\n{rule_text}")
-
-    parts.append(f"# Please answer directly (≤{cfg.max_sentences} sentences):")
-    parts.append(f"[Q]\n{Q.strip()}")
-
     return dedent("\n\n".join(parts)).strip()
