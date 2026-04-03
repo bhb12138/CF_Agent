@@ -166,20 +166,20 @@ def run_dialogue(
             else:
                 balanced_plan_text = ""
 
-        results.append({
-            "round": r,
-            "agent": name,
-            "response": response,
-            "balanced_plan": balanced_plan_text,
-            "role_influence": dict(role_influence),
-            "metrics": {
-                "responsive": resp_score,
-                "rebuttal": reb_score,
-                "non_repetition": nr_score,
-                "evidence_usage": evi_score,
-                "stance_shift": stance_score,
-            },
-            "weights": {"wT": wT, "wM": wM, "wD": wD},
-        })
+            results.append({
+                "round": r,
+                "agent": name,
+                "response": response,
+                "balanced_plan": balanced_plan_text,
+                "role_influence": dict(role_influence),
+                "metrics": {
+                    "responsive": resp_score,
+                    "rebuttal": reb_score,
+                    "non_repetition": nr_score,
+                    "evidence_usage": evi_score,
+                    "stance_shift": stance_score,
+                },
+                "weights": {"wT": wT, "wM": wM, "wD": wD},
+            })
 
     return results
